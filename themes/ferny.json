@@ -1,0 +1,36 @@
+{
+    "fileName": "Droid",
+    "name": "Default Themes",
+    "description": "",
+    "version": "1.0",
+    "pxRadius": "4px",
+    "light": {
+        "icons": "black",
+        "colorAccent": "#2864DC",
+        "colorNegative": "#E81123",
+        "colorBack": "#fafafa",
+        "colorElement": "#dbdbdb",
+        "colorBorder": "#a1a1a1",
+        "colorSecond": "#f0f0f0",
+        "colorTop": "#000000",
+        "colorTitlebar": "#ffffff",
+        "shadowFocus": "inset 0 0 4px rgba(0, 0, 0, 0.25)",
+        "opacityOver": "0.5",
+        "image": "droid-light.png"
+    },
+    "dark": {
+        "icons": "white",
+        "colorAccent": "#2864DC",
+        "colorNegative": "#E81123",
+        "colorBack": "#01082b",
+        "colorElement": "#010a38",
+        "colorBorder": "#0d1854",
+        "colorSecond": "#000c4f",
+        "colorTop": "#ffffff",
+        "colorTitlebar": "#0c0021",
+        "shadowFocus": "inset 0 0 4px rgba(0, 0, 0, 0.25)",
+        "opacityOver": "0.5",
+        "image": "droid-default.png"
+    }
+}
+  

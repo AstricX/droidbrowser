@@ -1,46 +1,11 @@
-<p align="center">
-  <img src="/imgs/icon128.png">
-</p>
-<h1 align="center">Ferny</h1>
-<h3 align="center">Web Browser</h3>
+Droid browser is another FireFox alternative built in electron.
+The very base of the browser is made by Ferny Web Browser as it would be too  difficult to code it from scratch.
+----
+How to build and run.
 
-<p align="center">
-  <a href="https://github.com/ModuleArt/ferny/releases">
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/ModuleArt/ferny/total">
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/moduleart/ferny?include_prereleases">
-  </a>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FModuleArt%2Fferny?ref=badge_shield" alt="FOSSA Status">
-    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FModuleArt%2Fferny.svg?type=shield"/>
-  </a>
-  <a alt="Codacy grade" href="https://app.codacy.com/manual/Beelink/ferny/dashboard">
-    <img src="https://img.shields.io/codacy/grade/6fac6a3440d7480281c19780ed37ce30">
-  </a>
-  <a alt="Trello roadmap" href="https://trello.com/b/cb5lXUgS/ferny">
-    <img src="https://img.shields.io/badge/planner-trello-%230079BF">
-  </a>
-  <a alt="Discord channel" href="https://discord.gg/9q4D8SJ">
-    <img alt="Discord" src="https://img.shields.io/discord/625641944105877504?color=%237289DA&label=discord">
-  </a>
-  <a alt="Buy ma a coffee" href="https://www.patreon.com/moduleart">
-    <img alt="Patreon" src="https://img.shields.io/badge/donate-patreon-%23E85B46">
-  </a>
-</p>
-
-<p align="center">
-  Ferny is a privacy-focused, cross-platform, chromium-based web browser<br>
-  with a greatfull user experience, built on top of Electron, JS and styled-components.<br>
-  It aims to be fast, private, beautiful and functional.
-</p>
-
-<h2 align="center">Screenshots</h2>
-<img src="/docs/imgs/ferny/tab.png">
-<img src="/docs/imgs/ferny/overlay.png">
-<img src="/docs/imgs/ferny/darkmode.png">
-<img src="/docs/imgs/ferny/search.png">
-<img src="/docs/imgs/ferny/history.png">
-<img src="/docs/imgs/ferny/settings.png">
-
-<h2 align="center">License</h2>
-<p align="center">
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FModuleArt%2Fferny?ref=badge_large" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FModuleArt%2Fferny.svg?type=large"/></a>
-</p>
+1. You will need node.js, git and windows build tools.
+2. Go to https://nodejs.org/en/ and install latest node.js version.
+3. Then go to https://git-scm.com/ and install it.
+4. After that open the project in visual studio code (https://code.visualstudio.com/) AND MAKE SURE TO RUN IT AS ADMIN
+5. Then create a new terminal and copy this command: $ npm i -g windows-build-tools 
+then once that is finished. Type: npm run start. If that didn't work go to package.json and find the Visual Studio Code "Debug" button and click Start Electron. And then you can close Droid and type npm run start.
